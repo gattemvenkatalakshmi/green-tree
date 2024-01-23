@@ -1,0 +1,190 @@
+@font-face{
+    font-family: 'flood';
+    /* font-stretch: condensed; */
+    src: url('/assets/fonts/Flood.ttf');
+    line-height: 1em;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  main{
+    font-family: 'Rambla', sans-serif;
+   }
+   nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  
+    color: #354463;
+  }
+  .logo{
+    /* background-color: aquamarine; */
+    padding-left: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  
+  }
+  .logo h3 {
+     width: 8em;
+     font-size: 2em;
+   }
+   .nav-items{
+    /* background-color: cadetblue; */
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
+    flex-direction:row;
+    align-items: center;
+    padding: 1em 1em;
+    padding-top: 2.5em;
+    text-align: center;
+  }
+  .donate{
+    /* background: chocolate; */
+    text-align: center;
+    padding: 1em 1em;
+    padding-top: 2em;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    padding-left: 1em;
+   
+    color: #354463;
+    font-size: 1.3em;
+    
+  }
+  
+  .donate button a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #354463
+  }
+  .donate button {
+    padding: 6px 10px;
+    border-radius: 30px;
+    background: #C1F7D5;
+    box-shadow: none;
+  }
+
+  /*hero tag*/
+  .hero-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;  
+    background-image: url('/assets/annie-spratt-427339-unsplash.png');  
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Rambla', sans-serif;
+    color: #354463;
+     
+    }
+    .hero-content{
+      display: grid;
+       padding: 6em;
+      grid-template-columns: 1.5fr 1.5fr;
+    }
+    .hero-section .hero-content .hero-quote{
+      
+      background-color: rgb(255, 255, 255);
+      padding: 3em;
+      align-self: center;
+    }
+    .hero-quote{
+      position: relative;
+    }
+    .hero-quote-climate{
+      font-size: 2.6em;
+    }
+  
+    .hero-hash-tag p{
+      font-family: 'flood';
+      line-height: 1em;
+      font-size: 4em;
+      padding-left: 1em;
+      color: white;
+      
+    }
+    .hero-the-issue-tag{
+      position: absolute;
+      background-color: #354463;
+      color: white;
+      padding: 0.5em 1em;
+      top: -0.5em;
+    }
+    /* Hero section end here */
+  
+  /* Subscribe section starts her */
+  .subscribe{
+    padding: 4em 6em;
+    background-color: #C1F7D5;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+  }
+   .subscribe-tag, .subscribe-form{
+     padding: 0.5em;
+   }
+   .subscribe-form{
+     align-self: center;
+    
+   }
+  
+   .subscribe-tag{
+     font-size: 1em;
+     color: #354463;
+   }
+  
+   .subscribe-form-input{
+    font-size: 1.3em;
+    padding: 0.2em;
+    border-radius: 3em;
+   }
+  .subscribe-form-btn{
+    margin-left: 0em; 
+    font-size: 1em;
+    padding: 0.5em 2em;
+    border-radius: 3em;
+    border: none;
+    background-color: #354463;
+    font-weight: 300;
+     color: #C1F7D5;
+     box-shadow: none;
+  }
+    
+  
+  
+    
+    /* Footer section starts here */
+    footer{
+      padding: 3em 6em;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr 1fr 1.2fr;
+      grid-column-gap: 2em;
+    }
+    .foot-link-items,.footer-follow-items{
+     
+      display: grid;
+      
+      grid-template-columns: 1fr;
+      grid-row-gap: 0.5em;
+      padding-top: 1em;
+    }
+    .foot-link-items a,.footer-follow-items a {
+     text-decoration: none;
+     color: black;
+    }
+   .foot-contact-head p, .foot-link-head p, .footer-follow-head p {
+     padding-bottom: 1em;
+   }
+   .foot-contact-address{
+     padding-top: 1em;
+   }
+   .footer-tag{
+     justify-self: end;
+     font-family: flood;
+     line-height: 1.5em;
+     font-size: 1.4em;
+     color: #354463;
+   }
+  
